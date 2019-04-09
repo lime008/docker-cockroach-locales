@@ -1,4 +1,4 @@
-FROM cockroachdb/cockroach:v2.1.6
+FROM cockroachdb/cockroach-unstable:v19.1.0-rc.2 
 
 FROM debian:9.8-slim
 
