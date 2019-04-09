@@ -8,7 +8,7 @@ RUN apt-get update && \
 	rm -rf /var/lib/apt/lists/*
 
 RUN mkdir -p /cockroach
-COPY --from=0 cockroach.sh cockroach /cockroach/
+COPY --from=0 /cockroach/cockroach.sh /cockroach/cockroach /cockroach/
 
 WORKDIR /cockroach/
 
