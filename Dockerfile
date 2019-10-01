@@ -1,6 +1,6 @@
-FROM cockroachdb/cockroach:v19.1.3
+FROM cockroachdb/cockroach:v19.1.5
 
-FROM debian:9.9-slim
+FROM debian:10-slim
 
 RUN apt-get update && \
 	apt-get -y upgrade && \
