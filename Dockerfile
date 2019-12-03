@@ -1,4 +1,4 @@
-FROM cockroachdb/cockroach:v19.1.5
+FROM cockroachdb/cockroach:v19.2.1
 
 FROM debian:10-slim
 
